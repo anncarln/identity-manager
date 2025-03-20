@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "C3/VI11nzU7GQIKDIYQgOCgc2GQs1c4J3ECDvMjAak0=",
+  "Source": "IdentityManager",
+  "BasePath": "_content/IdentityManager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

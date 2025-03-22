@@ -11,7 +11,7 @@ namespace IdentityManager.Profiles
 {
     public class UserProfile : Profile
     {
-        UserProfile()
+        public UserProfile()
         {
             CreateMap<CreateUserDto, User>();
         }

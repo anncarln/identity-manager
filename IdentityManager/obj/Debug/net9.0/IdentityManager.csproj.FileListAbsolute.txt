@@ -135,3 +135,4 @@ C:\Users\Karol\Repositórios Github\identity-manager\IdentityManager\obj\Debug\n
 C:\Users\Karol\Repositórios Github\identity-manager\IdentityManager\obj\Debug\net9.0\IdentityManager.pdb
 C:\Users\Karol\Repositórios Github\identity-manager\IdentityManager\obj\Debug\net9.0\IdentityManager.genruntimeconfig.cache
 C:\Users\Karol\Repositórios Github\identity-manager\IdentityManager\obj\Debug\net9.0\ref\IdentityManager.dll
+C:\Users\Karol\Repositórios Github\identity-manager\IdentityManager\obj\Debug\net9.0\IdentityManager.sourcelink.json

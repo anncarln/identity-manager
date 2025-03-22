@@ -7,29 +7,21 @@ using IdentityManager.Data.Dtos;
 using IdentityManager.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using IdentityManager.Services;
 
 namespace IdentityManager.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
-    public class UserController(IMapper mapper, UserManager<User> userManager) : Controller
+    public class UserController(RegisterService registerService) : Controller
     {
-        private IMapper _mapper = mapper;
-        private UserManager<User> _userManager = userManager;
+        private readonly RegisterService _registerService = registerService;
 
         [HttpPost]
-        public async Task<IActionResult> RegisterUser(CreateUserDto dto)
+        public async Task<IActionResult> RegisterUserAsync(CreateUserDto dto)
         {
-            User user = _mapper.Map<User>(dto);
-
-            IdentityResult result = await _userManager.CreateAsync(user, dto.Password);
-
-            if (result.Succeeded) 
-            {
-                return Ok("User successfully registered!");
-            }
-
-            throw new ApplicationException("Error registering user!");
+            await _registerService.RegisterAsync(dto);
+            return Ok("User successfully registered!");
         }
     }
 }

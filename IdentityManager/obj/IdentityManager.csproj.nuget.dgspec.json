@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Repositórios Github\\identity-manager\\IdentityManager\\IdentityManager.csproj": {}
+    "/home/anna/Documentos/identity-manager/IdentityManager/IdentityManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Repositórios Github\\identity-manager\\IdentityManager\\IdentityManager.csproj": {
+    "/home/anna/Documentos/identity-manager/IdentityManager/IdentityManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Repositórios Github\\identity-manager\\IdentityManager\\IdentityManager.csproj",
+        "projectUniqueName": "/home/anna/Documentos/identity-manager/IdentityManager/IdentityManager.csproj",
         "projectName": "IdentityManager",
-        "projectPath": "C:\\Users\\Karol\\Repositórios Github\\identity-manager\\IdentityManager\\IdentityManager.csproj",
-        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Repositórios Github\\identity-manager\\IdentityManager\\obj\\",
+        "projectPath": "/home/anna/Documentos/identity-manager/IdentityManager/IdentityManager.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/Documentos/identity-manager/IdentityManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anna/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -50,11 +49,11 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -90,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

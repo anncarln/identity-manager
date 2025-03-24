@@ -22,7 +22,8 @@ namespace IdentityManager.Services
 
             if (!result.Succeeded) 
             {
-                throw new ApplicationException("Error registering user!");
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                throw new ApplicationException($"Error registering user: {errors}");
             }
         }
     }

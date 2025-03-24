@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityManager.Data.Dtos;
 using IdentityManager.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,10 +14,11 @@ namespace IdentityManager.Controllers
     {
         private readonly AuthService _authService = authService;
         
-        [Http]
-        public IActionResult Login()
+        [HttpPost]
+        public async Task<IActionResult> LoginAsync(LoginUserDto dto)
         {
-            _authService.Login();
+            await _authService.LoginAsync(dto);
+            return Ok("Authenticated user!");
         }
     }
 }

@@ -137,3 +137,12 @@
 /home/anna/Documentos/identity-manager/IdentityManager/obj/Debug/net8.0/IdentityManager.pdb
 /home/anna/Documentos/identity-manager/IdentityManager/obj/Debug/net8.0/IdentityManager.genruntimeconfig.cache
 /home/anna/Documentos/identity-manager/IdentityManager/obj/Debug/net8.0/ref/IdentityManager.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.Bcl.Memory.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/anna/Documentos/identity-manager/IdentityManager/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -17,8 +17,8 @@ namespace IdentityManager.Controllers
         [HttpPost]
         public async Task<IActionResult> LoginAsync(LoginUserDto dto)
         {
-            await _authService.LoginAsync(dto);
-            return Ok("Authenticated user!");
+            var token = await _authService.GenerateTokenAsync(dto);
+            return Ok(token);
         }
     }
 }

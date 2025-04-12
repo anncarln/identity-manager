@@ -12,7 +12,7 @@ namespace IdentityManager.Controllers
     public class AccessController : ControllerBase
     {
         [HttpGet]
-        // [Authorize(Policy = "MinimumAge")]
+        [Authorize(Policy = "MinimumAge")]
         public IActionResult Get()
         {
             return Ok("Access granted");

@@ -40,7 +40,7 @@ API em ASP.NET Core para autenticação e autorização de usuários utilizando 
    cd identity-manager/IdentityManager
    ```
 
-2. **Configure os secrets**
+2. **Configure os secrets:**
     ```bash
     dotnet user-secrets init
   
@@ -48,17 +48,17 @@ API em ASP.NET Core para autenticação e autorização de usuários utilizando 
     dotnet user-secrets set "ConnectionStrings:UserConnection" "your-connection-string"
     ```
     
-3. **Execute as migrações do banco**
+3. **Execute as migrações do banco:**
    ```bash
     dotnet ef database update
    ```
    
-4. **Rode a aplicação**
+4. **Rode a aplicação:**
    ```bash
     dotnet run
    ```
    
-5. **Acesse o Swagger**
+5. **Acesse o Swagger:**
    ```bash
     http://localhost:5167/swagger
    ```
